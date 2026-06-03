@@ -158,14 +158,14 @@ Codex 不要停留在泛泛建议。如果用户提出的是可执行任务，�
 ### 当前目标
 
 - 建设一个可直接通过 GitHub Pages 发布的纯静态单页网站。
-- 第一版先用微信二维码和抖音号占位内容，后续用户提供真实素材后替换。
+- 第一版以微信作为主要联系入口，不再保留其他平台占位模块。
 - 页面口径强调“先找业务场景，再做 AI 落地”，避免空泛宣传和虚构案例。
 
 ### 重要路径
 
 - `index.html`：网站首页和主要中文文案。
 - `styles.css`：页面样式和响应式布局。
-- `assets/ai-landing-hero.png`：首页主视觉图。
+- 当前首页主视觉由 `index.html` 和 `styles.css` 中的产品化工作台界面组成，不依赖外部主视觉图片。
 - `README.md`：本地预览、联系方式替换和 GitHub Pages 发布说明。
 
 ### 常用命令
@@ -173,7 +173,7 @@ Codex 不要停留在泛泛建议。如果用户提出的是可执行任务，�
 ```powershell
 python -m http.server 8080
 git status --short --branch
-git add -- index.html styles.css README.md AGENTS.md assets/ai-landing-hero.png
+git add -- index.html styles.css README.md AGENTS.md
 git commit -m "完成个人 AI 落地网站首页"
 git push
 ```
@@ -187,6 +187,5 @@ git push
 
 ### 后续待办
 
-- 用户提供真实微信二维码后，替换联系模块占位图。
-- 用户提供真实抖音号或主页链接后，替换抖音占位内容。
+- 用户提供真实微信二维码原图后，保存为 `assets/wechat-qr.png` 并替换联系模块占位图。
 - 上线后可增加真实案例、免费诊断表单和企业 AI 落地清单下载入口。
