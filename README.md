@@ -1,10 +1,10 @@
-# Will 的 AI 落地笔记
+# will_station专注于AI应用落地
 
-这是一个面向中小企业老板的个人 AI 落地专家网站，用于说明 Will 能帮助企业把 AI 应用到获客、管理、运营、内容、数据整理和自动化流程中。
+这是一个面向中小企业老板的个人 AI 落地专家网站，用于说明 will_station 能帮助企业把 AI 应用到获客、管理、运营、内容、数据整理和自动化流程中。
 
 ## 网站定位
 
-- 网站名称：Will 的 AI 落地笔记
+- 网站名称：will_station专注于AI应用落地
 - 核心定位：帮中小企业把 AI 真正用到业务里
 - 目标用户：中小企业老板、园区/招商/制造/服务型企业负责人、想低成本试 AI 的团队
 - 第一版形态：纯静态单页网站，适合 GitHub Pages 发布
@@ -39,7 +39,7 @@ http://localhost:8080
 2. 在 `index.html` 的联系模块中，把二维码占位区域替换为图片：
 
 ```html
-<img src="assets/wechat-qr.png" alt="Will 的微信二维码">
+<img src="assets/wechat-qr.png" alt="will_station 的微信二维码">
 ```
 
 后续替换抖音号时：
