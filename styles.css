@@ -504,33 +504,16 @@ h3 {
   border-radius: 8px;
 }
 
-.qr-placeholder {
-  display: grid;
-  place-items: center;
-  min-height: 300px;
-  margin-bottom: 18px;
-  color: var(--green);
-  background:
-    linear-gradient(rgba(56, 214, 149, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(56, 214, 149, 0.1) 1px, transparent 1px),
-    rgba(56, 214, 149, 0.045);
-  background-size: 18px 18px;
-  border: 1px dashed rgba(56, 214, 149, 0.42);
+.wechat-qr {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+  margin: 0 auto 18px;
+  padding: 14px;
+  background: #ffffff;
   border-radius: 8px;
-  text-align: center;
-}
-
-.qr-placeholder span {
-  display: block;
-  font-size: 26px;
-  font-weight: 900;
-}
-
-.qr-placeholder small {
-  display: block;
-  max-width: 230px;
-  margin-top: -118px;
-  color: var(--muted);
 }
 
 .site-footer {

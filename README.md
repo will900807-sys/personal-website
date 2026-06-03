@@ -35,11 +35,11 @@ http://localhost:8080
 
 替换微信二维码时：
 
-1. 将微信二维码图片放到 `assets/wechat-qr.png`
-2. 在 `index.html` 的联系模块中，把二维码占位区域替换为图片：
+1. 将微信二维码图片放到 `assets/wechat-qr.jpg`
+2. 在 `index.html` 的联系模块中确认图片路径：
 
 ```html
-<img src="assets/wechat-qr.png" alt="will_station 的微信二维码">
+<img class="wechat-qr" src="assets/wechat-qr.jpg" alt="will_station 的微信二维码">
 ```
 
 ## GitHub Pages 发布
